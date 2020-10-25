@@ -1,3 +1,4 @@
+import * as ROUTES from '../constant/routes'
 import NAV_ROUTES from '../constant/nav-routes'
 import React, { Suspense } from 'react'
 import { Redirect, Route, Switch, withRouter } from 'react-router-dom'
@@ -19,6 +20,12 @@ const LoggedInRoutes = ({ user }) =>
           <CardBody>
             <Suspense fallback={<Loader />}>
               <Switch>
+              <Route
+                component={Components.SmartWodHome}
+                exact
+                key={ROUTES.SMART_WOD_HOME}
+                path={ROUTES.SMART_WOD_HOME}
+              />
                 {NAV_ROUTES
                   .map(({ component, href }, index) =>
                    <Route

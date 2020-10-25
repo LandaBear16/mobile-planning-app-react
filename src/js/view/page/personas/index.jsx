@@ -8,7 +8,7 @@ import CollapsibleText from '../../component/collapsable-text/index'
 const Personas = () => {
   return (
     <div>
-    <h2 className='text-center mb-5'>Personas</h2>
+      <h2 className='text-center mb-5'>Personas</h2>
       <div>
         <Media>
           <Media left href="#">
