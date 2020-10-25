@@ -1,0 +1,28 @@
+.carousel-item > img { 
+  width: 100%; 
+}
+
+.carousel-caption {
+  display: block !important;
+  bottom: -40px;
+}
+
+.carousel-caption > h3 {
+  display: none;
+}
+
+.carousel-caption > p {
+  color: #2699FB;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-control-prev-icon {
+  background-color: #2699FB;
+}
+
+.carousel-control-next-icon {
+  background-color: #2699FB;
+}

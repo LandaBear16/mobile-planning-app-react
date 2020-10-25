@@ -16,14 +16,14 @@ const NavBar = (props) => {
     className='my-4' color='light' expand='md'
     light
   >
-  <NavbarToggler onClick={toggle} />
+  <NavbarToggler onClick={toggle} className='mr-2'/>
     <Collapse isOpen={isOpen} navbar>
       <Nav className='mr-auto' navbar>
         {props.links.reduce((result, link, index) => {
           if (link.component) {
             result.push(
               <NavItem active={isCurrentRoute(link.href)} className='px-4' key={index}>
-                <NavLink tag={Link} to={link.href}>{link.label}</NavLink>
+                <NavLink tag={Link} to={link.href} >{link.label} </NavLink>
               </NavItem>
             )
           }
