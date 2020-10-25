@@ -32,6 +32,18 @@
   text-align: center;
 }
 
+.media-body {
+  padding: 0 10px 10px 10px
+}
+
+.media-left {
+  width: 128px;
+}
+
+.media-left > img {
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

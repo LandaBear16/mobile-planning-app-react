@@ -23,7 +23,7 @@ const NavBar = (props) => {
           if (link.component) {
             result.push(
               <NavItem active={isCurrentRoute(link.href)} className='px-4' key={index}>
-                <NavLink tag={Link} to={link.href} >{link.label} </NavLink>
+                <NavLink tag={Link} to={link.href} onClick={toggle} >{link.label} </NavLink>
               </NavItem>
             )
           }
