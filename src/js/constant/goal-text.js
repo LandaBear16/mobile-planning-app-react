@@ -3,7 +3,7 @@ import React from 'react'
 export const GOALS = [
   {
     uuid: 1,
-    header: 'header 1',
+    header: 'Muscle Groups -  the user has selected to train:',
     body: 'main body of lorem shiz'
   },
   {

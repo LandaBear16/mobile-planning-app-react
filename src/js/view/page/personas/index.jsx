@@ -19,7 +19,7 @@ const Personas = () => {
             <Media heading>
               Raymond Reddington
             </Media>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              Single, working Father, 40 years old. Has no time or money to join a gym, needing workouts that can fit around parenting and work and would like a quick and easy app that can generate a workout, customised to him without requiring any equipment.
           </Media>
         </Media>
 
@@ -35,7 +35,7 @@ const Personas = () => {
             <Media heading>
               Peggy Carter
             </Media>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            Existing user, she is an avid runner and who wants to use the app mainly to track their runs but also to generate workouts, which are customised to strength training. She has access to her home gym, with basic equipment.
           </Media>
         </Media>
 

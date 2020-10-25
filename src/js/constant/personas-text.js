@@ -1,27 +1,19 @@
 import React from 'react'
+import MaleAvatarList from '../view/component/lists/male-avatar'
+import FemaleAvatarList from '../view/component/lists/female-avatar'
 
 export const PERSONAS_MALE = [
   {
     uuid: 1,
-    header: 'header 1',
-    body: 'main body of lorem'
-  },
-  {
-    uuid: 2,
-    header: 'header 2',
-    body: 'main body of lorem'
+    header: 'User Journey',
+    body: <MaleAvatarList/>
   }
 ]
 
 export const PERSONAS_FEMALE = [
   {
-    uuid: 1,
-    header: 'header 1',
-    body: 'main body of lorem'
-  },
-  {
     uuid: 2,
-    header: 'header 2',
-    body: 'main body of lorem'
+    header: 'User Journey',
+    body: <FemaleAvatarList />
   }
 ]
