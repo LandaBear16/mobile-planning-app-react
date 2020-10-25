@@ -13,6 +13,7 @@ const Personas = () => {
         <Media>
           <Media left href="#">
             <Media object src={maleAvatar} alt='Generic placeholder image' />
+            <p className='muted-text text-center'><small>Image courtesy of Jordan Gibson: Behance</small></p>
           </Media>
           <Media body>
             <Media heading>
@@ -28,6 +29,7 @@ const Personas = () => {
         <Media>
           <Media left href="#">
             <Media object src={femaleAvatar} alt='Generic placeholder image' />
+            <p className='muted-text text-center'><small>Image courtesy of Jordan Gibson: Behance</small></p>
           </Media>
           <Media body>
             <Media heading>
